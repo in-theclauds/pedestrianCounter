@@ -1,0 +1,54 @@
+body {
+    background-image: url("./imgs/South-Miami-Beach-South-Point-Park_1440x9000-7adce26e5056a36_7adce389-5056-a36a-0b77f11abfd87dd5.jpeg");
+    background-size: cover;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    
+}
+
+.container {
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    top: 40%;
+  left: 40%;
+  position: absolute;
+}
+
+h1 {
+    margin: 10px 10px 10px 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#save-el {
+    font-weight: bold;
+    margin: 10px;
+}
